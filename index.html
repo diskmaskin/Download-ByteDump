@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ByteDump - Secure Multi-Layer File Encryption for macOS</title>
+    <meta name="description" content="Protect your sensitive files with military-grade encryption. Add up to 10 layers of AES-256-GCM encryption to keep your data absolutely secure.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#6c47ff',
+                        'primary-hover': '#5a3ad6',
+                        'secondary': '#9d7bff',
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+<body class="bg-white text-gray-900">
+    <div class="min-h-screen">
+        <!-- Hero Section -->
+        <section class="relative flex items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto text-center">
+                <!-- Icon/Logo -->
+                <div class="mb-8 flex justify-center">
+                    <img
+                        src="bytedump-icon.png"
+                        alt="ByteDump App Icon"
+                        class="w-32 h-32 rounded-3xl shadow-2xl"
+                    />
+                </div>
+
+                <!-- Main Heading -->
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-bold tracking-tight mb-6">
+                    <span class="bg-gradient-to-r from-[#6c47ff] to-[#9d7bff] bg-clip-text text-transparent">
+                        ByteDump
+                    </span>
+                </h1>
+
+                <!-- Subtitle -->
+                <p class="text-lg sm:text-xl lg:text-2xl text-gray-600 mb-8 max-w-3xl mx-auto">
+                    Secure Multi-Layer File Encryption for macOS
+                </p>
+
+                <p class="text-base sm:text-lg text-gray-500 mb-12 max-w-2xl mx-auto">
+                    Protect your sensitive files with military-grade encryption. Add up to 10 layers of AES-256-GCM encryption to keep your data absolutely secure.
+                </p>
+
+                <!-- CTA Buttons -->
+                <div class="flex flex-col sm:flex-row gap-4 justify-center items-center">
+                    <a
+                        href="https://apps.apple.com/app/bytedump"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="bg-[#6c47ff] text-white rounded-lg font-semibold text-base sm:text-lg px-8 py-4 hover:bg-[#5a3ad6] transition-colors shadow-lg hover:shadow-xl inline-flex items-center gap-3"
+                    >
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        Download on the App Store
+                    </a>
+                    <a
+                        href="#features"
+                        class="border-2 border-gray-300 text-gray-900 rounded-lg font-semibold text-base sm:text-lg px-8 py-4 hover:border-[#6c47ff] hover:text-[#6c47ff] transition-colors"
+                    >
+                        Learn More
+                    </a>
+                </div>
+
+                <!-- Platform Badge -->
+                <div class="mt-8 flex justify-center gap-4">
+                    <div class="bg-gray-100 rounded-full px-4 py-2 text-sm text-gray-600">
+                        macOS 14.6+
+                    </div>
+                    <div class="bg-gray-100 rounded-full px-4 py-2 text-sm text-gray-600">
+                        Apple Silicon & Intel
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section id="features" class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl sm:text-5xl font-bold mb-4">Powerful Security Features</h2>
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+                        ByteDump uses industry-standard encryption to protect your most sensitive files
+                    </p>
+                </div>
+
+                <!-- Features Grid -->
+                <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">🔐</div>
+                        <h3 class="text-xl font-semibold mb-3">Multi-Layer Encryption</h3>
+                        <p class="text-gray-600">
+                            Add up to 10 independent layers of encryption. Each layer uses a unique password, making your files virtually unbreakable.
+                        </p>
+                    </div>
+
+                    <!-- Feature 2 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">⚡</div>
+                        <h3 class="text-xl font-semibold mb-3">AES-256-GCM</h3>
+                        <p class="text-gray-600">
+                            Military-grade encryption with authenticated encryption. The same standard used by governments and banks worldwide.
+                        </p>
+                    </div>
+
+                    <!-- Feature 3 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">🔑</div>
+                        <h3 class="text-xl font-semibold mb-3">PBKDF2 Key Derivation</h3>
+                        <p class="text-gray-600">
+                            Passwords are strengthened using PBKDF2 with 100,000 iterations, protecting against brute-force attacks.
+                        </p>
+                    </div>
+
+                    <!-- Feature 4 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">👁️</div>
+                        <h3 class="text-xl font-semibold mb-3">No File Extensions</h3>
+                        <p class="text-gray-600">
+                            Encrypted files have no extension, obscuring the original file type and adding another layer of security.
+                        </p>
+                    </div>
+
+                    <!-- Feature 5 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">🎯</div>
+                        <h3 class="text-xl font-semibold mb-3">Simple & Intuitive</h3>
+                        <p class="text-gray-600">
+                            Clean, modern interface makes encryption easy. Just select your file, choose layers, set passwords, and encrypt.
+                        </p>
+                    </div>
+
+                    <!-- Feature 6 -->
+                    <div class="bg-white rounded-xl p-8 border border-gray-200 hover:border-[#6c47ff]/50 transition-colors">
+                        <div class="text-4xl mb-4">🛡️</div>
+                        <h3 class="text-xl font-semibold mb-3">App Sandboxed</h3>
+                        <p class="text-gray-600">
+                            Runs in macOS App Sandbox for maximum security. Your files and passwords are never shared or stored.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section class="py-24 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl sm:text-5xl font-bold mb-4">How It Works</h2>
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+                        Secure your files in three simple steps
+                    </p>
+                </div>
+
+                <!-- Steps -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                    <!-- Encryption Flow -->
+                    <div class="bg-gray-50 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-8 text-center">Encryption</h3>
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#6c47ff] text-white rounded-full flex items-center justify-center font-bold">
+                                    1
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Select Your File</h4>
+                                    <p class="text-sm text-gray-600">Choose any file you want to encrypt - documents, images, videos, anything.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#6c47ff] text-white rounded-full flex items-center justify-center font-bold">
+                                    2
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Choose Encryption Layers</h4>
+                                    <p class="text-sm text-gray-600">Select 1-10 layers. More layers = stronger security.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#6c47ff] text-white rounded-full flex items-center justify-center font-bold">
+                                    3
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Set Passwords</h4>
+                                    <p class="text-sm text-gray-600">Enter a unique password for each layer. Keep them safe!</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#6c47ff] text-white rounded-full flex items-center justify-center font-bold">
+                                    4
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Encrypt & Save</h4>
+                                    <p class="text-sm text-gray-600">Click encrypt and save your protected file anywhere.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Decryption Flow -->
+                    <div class="bg-gray-50 rounded-2xl p-8">
+                        <h3 class="text-2xl font-bold mb-8 text-center">Decryption</h3>
+                        <div class="space-y-6">
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#9d7bff] text-white rounded-full flex items-center justify-center font-bold">
+                                    1
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Select Encrypted File</h4>
+                                    <p class="text-sm text-gray-600">Choose the encrypted file you want to decrypt.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#9d7bff] text-white rounded-full flex items-center justify-center font-bold">
+                                    2
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Set Layer Count</h4>
+                                    <p class="text-sm text-gray-600">Must match the number of layers used during encryption.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#9d7bff] text-white rounded-full flex items-center justify-center font-bold">
+                                    3
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Enter Passwords</h4>
+                                    <p class="text-sm text-gray-600">Enter passwords in the same order as encryption.</p>
+                                </div>
+                            </div>
+                            <div class="flex gap-4">
+                                <div class="flex-shrink-0 w-10 h-10 bg-[#9d7bff] text-white rounded-full flex items-center justify-center font-bold">
+                                    4
+                                </div>
+                                <div>
+                                    <h4 class="font-semibold mb-1">Decrypt & Restore</h4>
+                                    <p class="text-sm text-gray-600">Click decrypt and save your original file back.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Use Cases Section -->
+        <section class="py-24 px-4 sm:px-6 lg:px-8 bg-gray-50">
+            <div class="max-w-7xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl sm:text-5xl font-bold mb-4">Perfect For</h2>
+                    <p class="text-lg sm:text-xl text-gray-600 max-w-2xl mx-auto">
+                        Protect all your sensitive files with ByteDump
+                    </p>
+                </div>
+
+                <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">💼</div>
+                        <p class="font-medium mb-1">Business Documents</p>
+                        <p class="text-sm text-gray-500">Contracts, NDAs, financial records</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">🏥</div>
+                        <p class="font-medium mb-1">Medical Records</p>
+                        <p class="text-sm text-gray-500">Personal health information</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">💰</div>
+                        <p class="font-medium mb-1">Financial Data</p>
+                        <p class="text-sm text-gray-500">Tax returns, bank statements</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">🔑</div>
+                        <p class="font-medium mb-1">Passwords & Keys</p>
+                        <p class="text-sm text-gray-500">Backup codes, recovery keys</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">📸</div>
+                        <p class="font-medium mb-1">Personal Photos</p>
+                        <p class="text-sm text-gray-500">Private images and videos</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">⚖️</div>
+                        <p class="font-medium mb-1">Legal Documents</p>
+                        <p class="text-sm text-gray-500">Wills, deeds, agreements</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">🔬</div>
+                        <p class="font-medium mb-1">Research Data</p>
+                        <p class="text-sm text-gray-500">Sensitive research files</p>
+                    </div>
+                    <div class="bg-white rounded-lg p-6 text-center">
+                        <div class="text-4xl mb-3">💾</div>
+                        <p class="font-medium mb-1">Backups</p>
+                        <p class="text-sm text-gray-500">Encrypted file backups</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section class="py-24 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto text-center">
+                <div class="bg-gradient-to-r from-[#6c47ff] to-[#9d7bff] rounded-3xl p-12 text-white">
+                    <h2 class="text-4xl sm:text-5xl font-bold mb-6">
+                        Start Protecting Your Files Today
+                    </h2>
+                    <p class="text-xl mb-8 opacity-90">
+                        Download ByteDump for free from the Mac App Store
+                    </p>
+                    <a
+                        href="https://apps.apple.com/app/bytedump"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="inline-flex items-center gap-3 bg-white text-[#6c47ff] rounded-lg font-semibold text-lg px-8 py-4 hover:bg-gray-100 transition-colors shadow-lg"
+                    >
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
+                            <path d="M18.71 19.5c-.83 1.24-1.71 2.45-3.05 2.47-1.34.03-1.77-.79-3.29-.79-1.53 0-2 .77-3.27.82-1.31.05-2.3-1.32-3.14-2.53C4.25 17 2.94 12.45 4.7 9.39c.87-1.52 2.43-2.48 4.12-2.51 1.28-.02 2.5.87 3.29.87.78 0 2.26-1.07 3.81-.91.65.03 2.47.26 3.64 1.98-.09.06-2.17 1.28-2.15 3.81.03 3.02 2.65 4.03 2.68 4.04-.03.07-.42 1.44-1.38 2.83M13 3.5c.73-.83 1.94-1.46 2.94-1.5.13 1.17-.34 2.35-1.04 3.19-.69.85-1.83 1.51-2.95 1.42-.15-1.15.41-2.35 1.05-3.11z"/>
+                        </svg>
+                        Download on the App Store
+                    </a>
+                    <p class="text-sm mt-6 opacity-75">macOS 14.6 or later</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
