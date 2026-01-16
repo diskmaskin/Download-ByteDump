@@ -45,7 +45,7 @@ If you've found a bug, please email us with:
 - macOS version
 - ByteDump version
 
-**Contact:** mrezaurrahman@icloud.com
+**Contact:** reza.rahman.sv@gmail.com
 
 ---
 

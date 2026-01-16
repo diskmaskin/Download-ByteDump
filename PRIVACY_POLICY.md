@@ -1,6 +1,6 @@
 # ByteDump Privacy Policy
 
-**Last Updated: December 28, 2024**
+**Last Updated: January 16, 2026**
 
 ## Overview
 
@@ -58,7 +58,7 @@ We may update this privacy policy from time to time. Any changes will be posted 
 
 If you have any questions about this privacy policy, please contact:
 
-**Email:** mrezaurrahman@icloud.com
+**Email:** reza.rahman.sv@gmail.com
 
 ---
 
