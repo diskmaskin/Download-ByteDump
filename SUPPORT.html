@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Support - ByteDump</title>
+    <meta name="description" content="Get help with ByteDump - Secure Multi-Layer File Encryption for macOS">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'primary': '#6c47ff',
+                        'primary-hover': '#5a3ad6',
+                        'secondary': '#9d7bff',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-white text-gray-900">
+    <div class="min-h-screen">
+        <!-- Header -->
+        <header class="py-6 px-4 sm:px-6 lg:px-8 border-b border-gray-200">
+            <div class="max-w-4xl mx-auto flex justify-between items-center">
+                <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                    <img src="bytedump-icon.png" alt="ByteDump" class="w-10 h-10 rounded-lg">
+                    <span class="text-xl font-bold bg-gradient-to-r from-[#6c47ff] to-[#9d7bff] bg-clip-text text-transparent">ByteDump</span>
+                </a>
+                <a href="index.html" class="text-sm text-gray-500 hover:text-[#6c47ff] transition-colors">
+                    &larr; Back to Home
+                </a>
+            </div>
+        </header>
+
+        <!-- Content -->
+        <main class="py-16 px-4 sm:px-6 lg:px-8">
+            <div class="max-w-4xl mx-auto">
+                <h1 class="text-4xl sm:text-5xl font-bold mb-8">Support</h1>
+
+                <!-- Getting Help -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-semibold mb-4">Getting Help</h2>
+                    <p class="text-gray-600 mb-4">If you need assistance with ByteDump, please contact us:</p>
+                    <p class="text-lg">
+                        <strong>Email:</strong>
+                        <a href="mailto:support@omnyvault.com" class="text-[#6c47ff] hover:underline">support@omnyvault.com</a>
+                    </p>
+                </section>
+
+                <!-- Common Questions -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-semibold mb-6">Common Questions</h2>
+
+                    <div class="space-y-8">
+                        <!-- Question 1 -->
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">How do I encrypt a file?</h3>
+                            <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                                <li>Open ByteDump</li>
+                                <li>Click the "Encrypt" tab</li>
+                                <li>Select a file using "Choose File..."</li>
+                                <li>Set the number of encryption layers (1-10)</li>
+                                <li>Enter a password for each layer</li>
+                                <li>Click "Encrypt File"</li>
+                            </ol>
+                        </div>
+
+                        <!-- Question 2 -->
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">How do I decrypt a file?</h3>
+                            <ol class="list-decimal list-inside space-y-2 text-gray-600">
+                                <li>Open ByteDump</li>
+                                <li>Click the "Decrypt" tab</li>
+                                <li>Select the encrypted file</li>
+                                <li>Set the number of layers (must match encryption)</li>
+                                <li>Enter the passwords in the same order as encryption</li>
+                                <li>Click "Decrypt File"</li>
+                            </ol>
+                        </div>
+
+                        <!-- Question 3 -->
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">What encryption does ByteDump use?</h3>
+                            <p class="text-gray-600">ByteDump uses military-grade AES-256-GCM encryption with PBKDF2 key derivation.</p>
+                        </div>
+
+                        <!-- Question 4 -->
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">Is my data safe?</h3>
+                            <p class="text-gray-600 mb-4">Yes! ByteDump:</p>
+                            <ul class="list-disc list-inside space-y-2 text-gray-600">
+                                <li>Encrypts files completely offline</li>
+                                <li>Never transmits data over the network</li>
+                                <li>Never stores your passwords</li>
+                                <li>Uses industry-standard encryption</li>
+                            </ul>
+                        </div>
+
+                        <!-- Question 5 -->
+                        <div class="bg-gray-50 rounded-xl p-6">
+                            <h3 class="text-xl font-semibold mb-4">I forgot my password</h3>
+                            <p class="text-gray-600">Unfortunately, if you forget your encryption password, there is no way to recover your files. ByteDump uses strong encryption without any backdoors or password recovery mechanisms.</p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Report a Bug -->
+                <section class="mb-12">
+                    <h2 class="text-2xl font-semibold mb-4">Report a Bug</h2>
+                    <p class="text-gray-600 mb-4">If you've found a bug, please email us with:</p>
+                    <ul class="list-disc list-inside space-y-2 text-gray-600 mb-6">
+                        <li>Description of the issue</li>
+                        <li>Steps to reproduce</li>
+                        <li>macOS version</li>
+                        <li>ByteDump version</li>
+                    </ul>
+                    <p class="text-lg">
+                        <strong>Contact:</strong>
+                        <a href="mailto:support@omnyvault.com" class="text-[#6c47ff] hover:underline">support@omnyvault.com</a>
+                    </p>
+                </section>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="py-8 px-4 sm:px-6 lg:px-8 border-t border-gray-200">
+            <div class="max-w-4xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p class="text-sm text-gray-500">
+                    &copy; 2025 ByteDump. All rights reserved.
+                </p>
+                <div class="flex gap-6">
+                    <a href="SUPPORT.html" class="text-sm text-gray-500 hover:text-[#6c47ff] transition-colors">
+                        Support
+                    </a>
+                    <a href="PRIVACY_POLICY.html" class="text-sm text-gray-500 hover:text-[#6c47ff] transition-colors">
+                        Privacy Policy
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
